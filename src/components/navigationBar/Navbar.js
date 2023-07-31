@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import HomePage from '../../pages/homePage';
 import social from '../../pages/social.png'; // Import the image
-import '../../pages/navbar.css';
+import './../pages/navbar.css';
 
 const Navbar = () => {
   return (
@@ -31,6 +31,7 @@ const Navbar = () => {
       </Routes>
     </div>
   )
-}
+  }
+
 
 export default Navbar;

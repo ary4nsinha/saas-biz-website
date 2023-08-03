@@ -1,0 +1,21 @@
+.home-comp {
+    flex: 1; /* Allow the main element to take up the remaining vertical space */
+    padding-top: 80px; /* Adjust the top padding as per your requirement */
+    background-color: #16161a;
+  }
+
+.left-col{
+    width: 45%;
+    padding: 2rem;
+    
+}
+h1{
+    font-size: 4.2rem;
+    font-weight: normal;
+    margin: 0;
+    color: #7f5af0;
+}
+
+h2{
+    color: rgb(35, 54, 195);
+}

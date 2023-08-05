@@ -1,21 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&display=swap');
 .home-comp {
-    flex: 1; /* Allow the main element to take up the remaining vertical space */
-    padding-top: 80px; /* Adjust the top padding as per your requirement */
-    background-color: #16161a;
-  }
+    padding-top: 100px;
+    background-color: #0f0e17;
+    position: relative;
+    overflow: hidden;
+}
 
-.left-col{
-    width: 45%;
-    padding: 2rem;
+.left-col {
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 0;
+    left: 0;
     
 }
-h1{
-    font-size: 4.2rem;
-    font-weight: normal;
+
+  
+
+h1 {
+    font-size: 2rem;
     margin: 0;
-    color: #7f5af0;
+    color: #a7a9be;
+}
+body {
+    background-color: #0f0e17
+  }
+
+.text-box {
+  position:center;
+    background-color: #0f0e17;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width:100%
 }
 
-h2{
-    color: rgb(35, 54, 195);
+.text-box h1{
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
 }
+
+.text-box p{
+  padding-top: 10px;
+  text-align: center;
+  color:#a7a9be;
+
+}
+
+/* Add styles for the button-like text */
+.button-like-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-background {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-background:hover {
+  background-color: #333;
+}
+

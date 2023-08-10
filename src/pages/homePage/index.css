@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:wght@300&display=swap%27');
+
+
 .home-comp {
     padding-top: 100px;
     background-color: #0f0e17;
@@ -6,7 +9,7 @@
     overflow: hidden;
 }
 
-.left-col {
+.col {
     width: 100%;
     padding: 1rem;
     background-color: black;
@@ -18,72 +21,82 @@
     left: 0;
     
 }
-
   
-
 h1 {
     font-size: 2rem;
     margin: 0;
     color: #a7a9be;
 }
-body {
+
+body{
     background-color: #0f0e17
-  }
-
-.text-box {
-  position:center;
-    background-color: #0f0e17;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 10px;
-    width:100%
 }
 
-.text-box h1{
-  display: flex;
-  justify-content: center; /* Horizontally center the content */
-  align-items: center; /* Vertically center the content */
-  background-color: black;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
-.text-box p{
+.web-dev p{
   padding-top: 10px;
   text-align: center;
-  color:#a7a9be;
-
+  color: #a7a9be;
 }
 
-/* Add styles for the button-like text */
-.button-like-text {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.button-background {
-  background-color: black;
+.web-dev h1{
+  margin: 0;
   color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
+  font-size: 4rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  text-align:center
 }
 
-.button-background:hover {
-  background-color: #333;
+.web-dev {
+  background-image: url('./background.jpg'); /* Use the relative path to your image */
+  background-size: cover;
+  background-position: relative;
+  padding: 20rem;
+  object-fit: cover;
 }
 
-.dubai {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
-  height: 600px;
-  opacity: 0.1;
-  margin-top: 15rem;
+.web-mod{
+  background-image: url('./bg-two.png');
+  background-size: cover;
+  background-position: relative;
+  padding: 20rem;
+  object-fit: fill;
+}
+
+.web-mod h1{
+  margin: 0;
+  color: white;
+  font-size: 4rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  text-align:center
+}
+.web-mod p{
+  padding-top: 10px;
+  text-align: center;
+  color: #a7a9be;
+}
+
+.SFC{
+  background-image: url('./SIMPLE-SKY@2x.png');
+  background-size: cover;
+  background-position: relative;
+  padding: 20rem;
+  object-fit: fill;
+}
+
+
+
+.SFC h1{
+  margin: 0;
+  color: white;
+  font-size: 4rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  text-align:center
+}
+.SFC p{
+  padding-top: 10px;
+  text-align: center;
+  color: #a7a9be;
 }

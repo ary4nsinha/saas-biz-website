@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@600&family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:wght@300&display=swap%27');
 
 
@@ -11,10 +11,10 @@
 
 .col {
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     background-color: black;
     text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue',sans-serif;
     font-style: normal;
     position: absolute;
     top: 0;

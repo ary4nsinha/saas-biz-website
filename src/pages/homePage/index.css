@@ -48,7 +48,7 @@ body{
 }
 
 .web-dev {
-  background-image: url('./background.jpg'); /* Use the relative path to your image */
+  background-image: url('./bg-five.png'); /* Use the relative path to your image */
   background-size: cover;
   background-position: relative;
   padding: 20rem;

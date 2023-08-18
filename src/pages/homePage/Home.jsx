@@ -31,7 +31,9 @@ const Home = () => {
           <p>Capture attention instantly and make a lasting impact with our compelling short-form content tailored for TikTok and Instagram.</p>
         </div>
       </div>
-      <div></div>
+      <div className="top-shota">
+        <h1>PORTFOLIO</h1>
+      </div>
     </>
   );
 };

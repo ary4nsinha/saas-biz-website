@@ -2,10 +2,19 @@
   background-color: #0f0e17;
 }
 
-.cards{
+.card-1{
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: 100vh; 
 }
 
+.card-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
 
 .top-shota h1{
     color: rgb(255, 255, 255);

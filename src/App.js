@@ -15,6 +15,7 @@ function App() {
       <div class='wrapper'>
         <Header />
         <Home/>
+        <Portfolio/>
         
       </div>
       <Routes>

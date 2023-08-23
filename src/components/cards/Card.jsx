@@ -1,17 +1,23 @@
-import React from "react";
-import '../cards/index.css'
+import React from 'react'
+import '../cards/cards.css'
 
-const Card = (props) => {
+const Card = ({
+    imgSrc,
+    imgAlt,
+    title,
+    description,
+    buttonText,
+    link,
+
+}) => {
   return (
-    <div className="card">
-      <div className="card__body">
-        <img src={props.img} class="card__image" />
-        <h2 className="card__title">{props.title}</h2>
-        <p className="card__description">{props.description}</p>
-      </div>
-      <button className="card__btn">View Recipe</button>
+    <div className='card-container'>
+      <img  className='card-img' src={imgSrc} alt={imgAlt}></img>
+      <h1 className='card-title'>{title}</h1>
+      <p className='card-desc'>{description}</p>
+      <a href={link} className='card-btn'>{buttonText}</a>
     </div>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

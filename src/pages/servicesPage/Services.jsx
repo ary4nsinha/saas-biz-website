@@ -1,15 +1,9 @@
-import React from 'react';
+import React from "react";
 //import wordpressImage from './wordpress.jpeg'; // Import the image
-import '../servicesPage/index.css'
-import Card from '../../components/cards/Card';
-
+import "../servicesPage/index.css";
 
 const services = () => {
-  return (
-    <div className='service-page'>
-      
-    </div>
-  );
+  return <div className="service-page"></div>;
 };
 
 export default services;

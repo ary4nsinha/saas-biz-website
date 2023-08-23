@@ -6,11 +6,11 @@ import '../portfolioPage/index.css';
 
 const portfolio = () => {
   return (
-    <div>
+    <div className="portfolio-page">
       <div className="top-shota">
         <h1>PORTFOLIO</h1>
       </div>
-      <div>
+      <div className="cards">
       <Card
         title="App Home Page Design"
         description="UI Design for an IOS Application home page"

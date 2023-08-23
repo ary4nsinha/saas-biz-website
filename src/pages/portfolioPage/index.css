@@ -1,3 +1,12 @@
+.portfolio-page{
+  background-color: #0f0e17;
+}
+
+.cards{
+  align-items: center;
+}
+
+
 .top-shota h1{
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);

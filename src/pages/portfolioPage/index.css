@@ -1,5 +1,6 @@
 .portfolio-page{
   background-color: #0f0e17;
+  padding: 40px;
 }
 
 .card-1{
@@ -10,10 +11,12 @@
 }
 
 .card-2{
+  margin: auto;;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh; 
+  width:100%
 }
 
 .top-shota h1{

@@ -39,9 +39,9 @@ header {
   nav ul li a.active:before{
     position: absolute;
     content: "";
-    width: 100%;
+    width: 50%;
     height: 1px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255,255,255);
     bottom: -6px;
 }
 
@@ -50,12 +50,12 @@ nav ul li a:before{
     content: "";
     width: 0%;
     height: 1px;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(255,255,255);
     bottom: -6px;
     transition: width .3s;
 
 }
 
 nav ul li a:hover::before{
-    width: 100%;
+    width: 50%;
 }
